@@ -25,6 +25,6 @@ public class InboxPage {
     @FindBy(xpath = "/html/body/div[15]/div[2]/div/div[1]/div[2]/div[3]/div[5]/div/div/div[2]/div[1]/div[1]")
     public WebElement textField;
 
-    @FindBy(xpath = "//span[@class='button2 button2_base button2_primary button2_hover-support js-shortcut']//span[@class='button2__txt']")
+    @FindBy(xpath = "//span[text()='Отправить']")
     public WebElement sendButton;
 }
